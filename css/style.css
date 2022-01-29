@@ -287,7 +287,7 @@
   margin: 8px 0 0 0;
   color: #ff4800;
   transition: .5s;
-  font-family: Dosis,sans-serif;
+  font-family: 'Dosis',sans-serif;
   font-size: 15px;
   font-weight: 500;
   text-align: center;
@@ -353,6 +353,83 @@
 .pagescustumers-section{
   background-color: #f2f6f9;
 }
+.pagescustumers{
+  padding: 110px 0 100px 0;
+}
+.pagescustumers__title{
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+.pagescustumers__text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #57647c;
+  text-align: center;
+  max-width: 520px;
+  margin: 10px auto 0;
+}
+.pagescustumers__div{
+  margin-bottom: 60px;
+}
+.pagescustumers__list{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.pagescustumers__pic{
+  display:block;
+  padding: 25px;
+  background-color: #fff;
+  transition: 0.5s ease;
+}
+.pagescustumers__item{
+  background-color: #fff;
+  display: inline-block;
+  margin:0 5px 10px 5px;
+  transition: all 0.5s ease;
+}
+.pagescustumers__item:nth-child(6){
+  display: inline-block;
+  margin: 0 5px 10px 130px;
+  transition: all 0.5s ease;
+}
+.pagescustumers__item:hover .pagescustumers__pic{
+  transform: scale(0.8);
+  transition: all 0.5s ease;
+}
+
+/* .pagescustumers__item::before{
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-top: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+.pagescustumers__item:hover::before{
+  width: 40px;
+  height: 45px;
+  border-left: 3px solid red;
+  border-top: 3px solid red;
+  transition: all 0.3s ease;
+}   */
+/*.box{
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  transition: all 0.5s ease;
+} */
 
 
 
@@ -360,21 +437,17 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pages-carusel-section{
+  background-image: url('../img/red-bgc-img1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  /* background-position:  0; */
+}
+.pages-carusel{
+  z-index: 1;
+  display: flex;
+}
 
 
 
