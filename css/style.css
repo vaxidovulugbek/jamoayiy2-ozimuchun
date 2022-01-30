@@ -196,16 +196,7 @@
   margin: 12px 0 0 0;
   line-height: 1.8;
 }
-/* .pagesgrid__img{
-  padding: 17px;
-  border-radius: 5px;
-  transition: 0.5s;
-  background-color: #ffe4d9;
-  margin-bottom: 10px;
-}
-.pagesgrid:hover .pagesgrid__img{
-  background-color: #ff4800;
-} */
+
 
 .bxs-bar-chart-alt-2{
   padding: 17px;
@@ -272,24 +263,6 @@
   color: #fff;
   background-color: #ff4800;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -374,7 +347,6 @@
   margin: 0;
   padding: 25px;
   transition: all 0.5s ease;
-  /* background-color: #4ac728; */
 }
 .pagesinfiitem__title{
   font-family: 'Dosis', sans-serif;
@@ -447,8 +419,6 @@
 
 
 
-
-
 .pagescustumers-section{
   background-color: #f2f6f9;
 }
@@ -492,17 +462,6 @@
   background-color: #fff;
   transition: all 0.5s ease;
 }
-/* .pagescustumers__item{
-  position: relative;
-  width: 250px;
-  height: 100px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin:0 5px 10px 5px;
-  transition: all 0.5s ease;
-} */
 .pagescustumers__item:nth-child(6){
   display: inline-block;
   margin: 0 5px 10px 130px;
@@ -800,13 +759,9 @@
   margin-bottom: 60px;
 }
 .pagesplan__btns{
-  /* display: inline-block; */
   align-items: center;
   justify-content: center;
   display: flex;
-  /* max-width: 300px; */
-  /* margin-left: 50%;
-  transform: translate(-50%); */
   margin-bottom: 45px;
 }
 .pagesplan__btn{
@@ -827,7 +782,8 @@
 .pagesplan__btn::after{
   content: "";
   width: 20px;
-  height: 42px;
+  /* height: 42px; */
+  height: 100%;
   background-color: #333;
   position: absolute;
   top: 0;
