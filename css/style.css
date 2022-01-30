@@ -780,6 +780,7 @@
 }
 .pagesplan{
   padding: 110px 0 80px 0;
+  border-radius: 5px;
 }
 .pagesplan__title{
   font-family: 'Dosis', sans-serif;
@@ -881,12 +882,13 @@
   font-size: 15px;
   color: #57647c;
   width: 140px;
-  margin-top: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .pages-pricing__div{
   display: flex;
   align-items:flex-end;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .pages-pricing__zero{
   font-family: 'Dosis', sans-serif;
@@ -929,10 +931,11 @@
 
 .pages-pricing__item{
   display: flex;
+  align-items: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #57647c;
-  margin: 0 0 12px 0;
+  margin: 0 0 13px 0;
 }
 .pages-pricing__item::before{
   content: '';
@@ -942,6 +945,7 @@
   width: 20px;
   height: 20px;
   margin-right: 7px;
+  align-items: center;
 }
 .pages-carusel-section--activ{
   display: flex;
@@ -1042,11 +1046,11 @@
   max-width: 350px;
 }
 
-.carusel-left2
+/* .carusel-left2
 z-index: 2;
 padding:100px 0;
 max-width: 650px;
-
+ */
 
 
 
