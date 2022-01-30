@@ -21,6 +21,11 @@
 .pages-section{
   padding: 110px 0;
   background-color: #fff;
+  position: relative;
+}
+.pages-section__pic{
+  position: absolute;
+  animation: ;
 }
 .pages-smart{
   display: flex;
